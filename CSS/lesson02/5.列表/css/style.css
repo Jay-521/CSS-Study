@@ -1,0 +1,41 @@
+#nav{
+    width: 350px;
+    background: ghostwhite;
+}
+
+.title{
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+    text-indent: 1em;
+    background: red;
+}
+
+/*ul li*/
+/*
+list-style:   none:去除原点
+              decimal:数字，有序列表
+              circle:空心圆
+              square：正方形
+*/
+
+ul li{
+
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+
+}
+a{
+    text-indent: 1em;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+
+}
+
+

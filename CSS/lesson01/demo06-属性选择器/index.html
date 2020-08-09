@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+
+    <style>
+        .demo a{
+
+
+
+        }
+        /*属性名， 属性名 = 属性名*/
+        /*存在id的元素： a[]{}*/
+        a[id]{
+            background: blue;
+        }
+
+        /*class中含有links的元素
+        = 绝对等于
+        *= 包含
+
+        */
+        a[class *= "links"]{
+
+            background: red;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+<p class="demo">
+
+    <a href="http://www.baidu.com" class="links item first" id="first">1</a>
+    <a href="" class="links item first" title="test">2</a>
+    <a href="images/123.html" class="links item">3</a>
+    <a href="images/123.png" class="links item">4</a>
+    <a href="abc.doc" class="links item">5</a>
+    <a href="abcd.doc" class="links item">6</a>
+
+
+
+
+</p>
+
+
+</body>
+</html>

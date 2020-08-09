@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相对低位</title>
+
+    <style>
+        body{
+            padding: 20px;
+        }
+        div{
+            margin: 10px;
+            padding: 5px;
+            font-size: 12px;
+            line-height: 25px;
+        }
+        #father{
+            border: 1px solid red;
+            padding: 0;
+        }
+        #first{
+            background-color: yellow;
+            border: 1px dashed red;
+            /*相对定位*/
+            position: relative;
+            top: 20px;
+
+        }
+        #second{
+            background-color: red;
+            border: 1px dashed blue;
+        }
+        #third{
+            background-color: bisque;
+            border: 1px dashed green;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div id="father">
+
+    <div id="first">第一个盒子</div>
+    <div id="second">第二个盒子</div>
+    <div id="third">第三个盒子</div>
+
+</div>
+
+</body>
+</html>
